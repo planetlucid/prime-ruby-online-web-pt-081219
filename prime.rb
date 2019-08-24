@@ -7,4 +7,5 @@ def a_method(array)
     else
   FALSE
   end
+  a_method(array)
 end
