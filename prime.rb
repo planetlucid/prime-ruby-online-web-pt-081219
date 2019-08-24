@@ -1,5 +1,5 @@
 # Add  code here!
-def a_method(array)
+def prime?(array)
   while
   array.find do |i| i.prime? 
     return 
@@ -7,5 +7,5 @@ def a_method(array)
     else
   FALSE
   end
-  a_method(array)
+  prime?(array)
 end
