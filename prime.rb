@@ -1,11 +1,4 @@
 # Add  code here!
 def prime?(n)
-  x = 2
-  is_prime = true
-  while (x <= n / 2)
-    if (n % x == 0)
-      is_prime = false 
-      break
-  end
-x
+  n < 2 ? false : (2..n - 1).none?{ |i| n % i == 0 }
 end
